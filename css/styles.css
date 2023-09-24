@@ -18,6 +18,7 @@ p {
 }
 
 /* Headings */
+
 .big-heading {
     font-family: 'Montserrat';
     font-size: 3.5rem;
@@ -31,8 +32,20 @@ p {
 }
 
 /* Containers */
+
 .container-fluid {
     padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-section {
+    background-color: white;
 }
 
 /* Nav Bar */
@@ -64,11 +77,6 @@ p {
 }
 
 /* Title */
-#title {
-    background-color: #ff4c68;
-    color: white;
-    text-align: left;
-}
 
 .title-img {
     width: 25%;
@@ -76,14 +84,15 @@ p {
     position: absolute;
 }
 
+/* Hierarchical selector (parent child) */
 #title .container-fluid {
     padding: 3% 15% 7%;
+    text-align: left;
 }
 
 /* Features */
 
 #features {
-    background-color: white;
     position: relative;
 }
 
@@ -107,8 +116,8 @@ p {
 /* Testimonials */
 
 #testimonials {
+    /* Overrides colored-section */
     background-color: #ef8172;
-    color: white;
 }
 
 .testimonial-image {
@@ -151,11 +160,6 @@ p {
 }
 
 /* Call to Action */
-
-#cta {
-    background-color: #ff4c68;
-    color: white;
-}
 
 /* Footer */
 
