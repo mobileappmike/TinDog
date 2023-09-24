@@ -1,5 +1,6 @@
 body {
     font-family: 'Montserrat';
+    text-align: center;
 }
 
 h1,
@@ -33,6 +34,7 @@ p {
 #title {
     background-color: #ff4c68;
     color: white;
+    text-align: left;
 }
 
 .container-fluid {
@@ -84,7 +86,6 @@ p {
 }
 
 .feature-column {
-    text-align: center;
     padding: 5%;
 }
 
@@ -104,7 +105,6 @@ p {
 /* Testimonials */
 
 #testimonials {
-    text-align: center;
     background-color: #ef8172;
     color: white;
 }
@@ -128,7 +128,6 @@ p {
 /* Press */
 
 #press {
-    text-align: center;
     background-color: #ef8172;
     padding-bottom: 3%;
 }
@@ -141,7 +140,6 @@ p {
 /* Pricing */
 
 #pricing {
-    text-align: center;
     padding: 100px;
 }
 
@@ -159,14 +157,12 @@ p {
 #cta {
     background-color: #ff4c68;
     color: white;
-    text-align: center;
     padding: 7% 15%;
 }
 
 /* Footer */
 
 #footer {
-    text-align: center;
     padding: 10% 15%;
     background-color: white;
 }
