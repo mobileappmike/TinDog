@@ -30,15 +30,9 @@ p {
     line-height: 1.5;
 }
 
-/* Title */
-#title {
-    background-color: #ff4c68;
-    color: white;
-    text-align: left;
-}
-
+/* Containers */
 .container-fluid {
-    padding: 3% 15% 10%;
+    padding: 7% 15%;
 }
 
 /* Nav Bar */
@@ -69,7 +63,12 @@ p {
     margin: 5% 3% 5% 0;
 }
 
-/* Screenshot Title Image */
+/* Title */
+#title {
+    background-color: #ff4c68;
+    color: white;
+    text-align: left;
+}
 
 .title-img {
     width: 25%;
@@ -77,10 +76,13 @@ p {
     position: absolute;
 }
 
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
 /* Features */
 
 #features {
-    padding: 7% 15%;
     background-color: white;
     position: relative;
 }
@@ -121,10 +123,6 @@ p {
     margin: 30px 0;
 }
 
-.carousel-item {
-    padding: 7% 15%;
-}
-
 /* Press */
 
 #press {
@@ -157,13 +155,11 @@ p {
 #cta {
     background-color: #ff4c68;
     color: white;
-    padding: 7% 15%;
 }
 
 /* Footer */
 
 #footer {
-    padding: 10% 15%;
     background-color: white;
 }
 
